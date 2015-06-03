@@ -1,0 +1,21 @@
+#ifndef _Z
+#define _Z
+
+class Zasoby
+{
+	protected:
+	int maka;
+	int cukier;
+	int owoce;
+	int zloto;
+	
+	public:
+	Zasoby();
+	~Zasoby();
+	void kup();
+	void get_zasoby();
+	void set_maka(int);
+	void set_cukier(int);
+};
+
+#endif

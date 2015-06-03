@@ -1,0 +1,10 @@
+#include <iostream>
+#include <Zasoby.h>
+
+class Placki
+	:public zasoby
+{
+	protected:
+	std::string nazwa;
+	int pd;
+
